@@ -1,0 +1,122 @@
+/* ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: #333;
+    overflow: hidden;
+}
+li{
+    float: left;
+    display: inline-block;
+}
+li a{
+    display: block;
+    padding: 14px 16px ;
+    color: white;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #111;
+}
+.active{
+    background-color: green;
+}
+
+.dropdown{
+    float: left;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+   
+}
+
+.dropdown button{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    padding: 16px;
+}
+
+.dropcontent{
+    display: none ;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown:hover .dropcontent{
+    display: block;
+    
+}
+.dropcontent a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+.dropcontent a:hover{
+    background-color: #ddd;
+
+} */
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: #333;
+}
+
+li{
+    display: inline-block;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+li a:hover{
+    background-color: #111;
+}
+.active{
+    background-color: green;
+}
+
+.dropdown{
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown button{
+    display: block;
+   font-size: 16px;
+   font-family: inherit;
+   border: 0px;
+   outline: 0px;
+   color: white;
+   padding: 16px ;
+   background-color: inherit;
+   
+}
+.dropcontent{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown:hover .dropcontent{
+    display: block;
+}
+.dropcontent a{
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.dropcontent :hover{
+    background-color: #ddd;
+}

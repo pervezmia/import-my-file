@@ -1,0 +1,23 @@
+p{
+    color: aqua !important;
+}
+p{
+    color: antiquewhite !important;
+}
+p.para{
+    color: rgb(162, 30, 192) !important;
+}
+p#para{
+    color: cadetblue !important;
+}
+/* p.para{
+    background-color: black;
+    width: calc(100% - 200px);
+    margin: 0 auto;
+} */
+
+p.para{
+    background-color: black;
+    width: min(70%, 700px );
+    margin: 0 auto;
+}

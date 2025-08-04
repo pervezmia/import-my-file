@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css?family=Galada');
+
+
+p{
+  font-family: 'Galada', cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+{
+
+    font-style: italic;
+    /*normal font-weight 400*/
+    font-weight: bold;
+    /*normal font-size 16px
+    empha size 1em=16px
+    empha size device with change hobe
+    vw vportwith aita device with change hobe na(responsive font with)*/
+    font-size: 10vw;
+}

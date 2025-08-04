@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+.formDesign{
+    background-color: aliceblue;
+    padding: 30px;
+}
+.formDesign input, select{
+    width: 100%;
+    outline: none;
+}

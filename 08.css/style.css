@@ -1,0 +1,23 @@
+a:link, a:visited{
+    color: rgb(0, 0, 0);
+    padding: 4px 6px;
+    /* border: 1px solid rgb(0, 163, 41); */
+    background: red;
+    text-decoration: none;
+    /* background-color: bisque; */
+
+}
+a:visited{
+    color:black
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(201, 75, 75);
+    text-decoration: none;
+}
+a:active{
+    color: blueviolet;
+    text-decoration: none;
+
+}

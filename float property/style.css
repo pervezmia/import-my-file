@@ -1,0 +1,87 @@
+/* div{
+    background: yellow ;
+    padding: 10px 5%;
+    border: 1px solid black;
+    width: 500px;
+    height: 90px;
+    float: right;
+    overflow: none;
+}
+img{
+    
+    padding: 10px;
+    float:inherit;
+    clear: ;
+} */
+/* div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    background: red;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto
+}
+p{
+    text-align: left;
+}
+img{
+    float: right;
+} */
+ /* descendant selector,child selector,adjacent sibling selector, general sibling selector */
+ /* div p{
+    background:greenyellow ;
+ }
+ /* div>p{
+    background: yellow;
+ }
+ div+p{
+    background-color: aqua;
+ }
+div~p{
+    background: aquamarine;
+} */ 
+ a:hover{
+background-color: aqua;
+ }
+  /* li:last-child{
+    color: rgb(216, 125, 6); } */
+
+/* li:first-child{
+color: rgb(231, 32, 32);
+}  */
+ /* li:nth-child(n){
+    color: aqua;
+ } */
+  
+ li:nth-child(2n+1){
+    color: aqua;
+ }
+   /* li:nth-child(2n){
+    color: aqua;
+ } */
+   /* li:nth-child(even){
+    color: brown;
+
+  } */
+     /* li:nth-child(odd){
+    color: brown;
+
+  } */
+
+
+
+
+/* body::after{
+   content: " this is pseudo class and pseudo element";
+}
+ body::before{
+   content: " this is pseudo class and pseudo element";
+} */
+ p::selection{
+    background-color: burlywood;
+    color: white;
+ }

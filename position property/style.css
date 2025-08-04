@@ -1,0 +1,36 @@
+/* .green{
+    height: 400px;
+    width: 600px;
+    background: green;
+    position: relative;
+}
+.red{
+    height: 300px;
+    width: 300px;
+    background: red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50%;
+} */
+ .green{
+    width: 600px;
+    height: 400px;
+    background: green;
+    position: relative;
+ }
+ .red{
+    width: 300px;
+    height: 300px;
+    background: red;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    border-radius: 50%;
+ }

@@ -1,0 +1,20 @@
+.parents{
+    background: red;
+    position:relative;
+    height: 1200px;
+}
+.child-onechild {
+    background: gold;
+    position:relative; 
+    left: 50px;
+    
+}
+.child-twochild{
+    background: green;
+    position: fixed;
+}
+.child-threechild{
+    background: rgb(172, 88, 255);
+    position: sticky;
+    top: 0;
+}
